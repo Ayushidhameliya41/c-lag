@@ -10,7 +10,7 @@ int main()
     {
         if(i%4==0)
         {
-            printf("leap year :- %d\n",i);
+            printf("leap year :-   %d\n",i);
         }
     }
 }
