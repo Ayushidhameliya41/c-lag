@@ -6,11 +6,14 @@ int main()
     scanf("%d",&a);
     printf("Enter second number :- ");
     scanf("%d",&b);
-    for(i=a;i<=b;i++)
+    
+    while( i <= b )
+    //for(i=a;i<=b;i++)
     {
         if(i%4==0)
         {
             printf("leap year :-   %d\n",i);
+            i++;
         }
     }
 }

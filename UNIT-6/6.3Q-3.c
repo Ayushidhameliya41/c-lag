@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,a;
-    printf("Enter no :- ");
+    int n,i=1;
+    printf("Enter n :- ");
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
+
+    do 
     {
-        if(i%2!=0)
+        if(i%2==0)
         {
             printf("%d\n",i);
         }
-    }
+        i++;
+    }while(i<=n);
 }
