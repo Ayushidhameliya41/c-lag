@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int val;
+    int val,a;
 
     printf("Enter your score :- ");
     scanf("%d",&val);
@@ -27,4 +27,7 @@ int main()
         printf("fail");
     }
     return 0;
+
+    
+    
 }

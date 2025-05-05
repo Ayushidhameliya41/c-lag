@@ -1,16 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n,i=1;
-    printf("Enter n :- ");
-    scanf("%d",&n);
+    int i=1,no;
+    printf("Enter no :- ");
+    scanf("%d",&no);
 
-    do 
+    start:
+    if(i<=10)
     {
-        if(i%2==0)
-        {
-            printf("%d\n",i);
-        }
+        printf("%d * %d = %d\n",no,i,no*i);
         i++;
-    }while(i<=n);
+        goto start;
+    }
 }
