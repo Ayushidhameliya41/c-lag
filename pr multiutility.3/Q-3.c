@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int fd,ld,no,ans;
+    int fd,ld,num,ans;
 
     printf("Enter any number :- ");
-    scanf("%d",&no);
+    scanf("%d",&num);
 
-    fd = no%10;
+    fd = num%10;
 
-    while( no >= 10 ){
-        no = no / 10;
+    while( num >= 10 ){
+        num = num / 10;
      }
-     ld = no;
+     ld = num;
 
-     ans = fd + ld ;
+     ans = num + ld ;
 
      printf("Ans :- %d",ans);
 }

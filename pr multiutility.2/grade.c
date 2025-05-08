@@ -1,33 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int val,a;
+    int val, a;
 
     printf("Enter your score :- ");
-    scanf("%d",&val);
+    scanf("%d", &val);
 
-    if(val >= 91 && val <= 100)
-    {
-        printf("your gread is A. Excellent work!");
-    }
-    else if (val >= 81 && val <= 90)
-    {
-        printf("your gread is B. Excellent work! you are eligible for the next level.");
-    }
-    else if (val >= 61 && val <= 80)
-    {
-        printf("your gread is c. Good work!");
-    }
-    else if (val >= 41 && val <= 60)
-    {
-        printf("your gread is D. Good work!");
-    }
-    else 
-    {
-        printf("fail");
-    }
+     (val >= 91 && val <= 100) ? printf("your gread is A. Excellent work!") : (val >= 81 && val <= 90)   ? printf("your gread is B. Excellent work! you are eligible for the next level.")
+                                                                           : (val >= 61 && val <= 80)   ? printf("your gread is c. Good work!")
+                                                                           : (val >= 41 && val <= 60)   ? printf("your gread is D. Good work!")
+                                                                                                        : printf("fail");
     return 0;
-
-    
-    
 }
