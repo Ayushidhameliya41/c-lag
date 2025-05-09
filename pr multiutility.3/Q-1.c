@@ -3,10 +3,15 @@ int main()
 {
     char ch = 'a';
 
-   
-    while( ch <= 'z') {  
-    printf("%c",ch);
+   do{
+    printf("%c ",ch);
     ch += 4;
-    }  
+   }while( ch <= 'z'); 
+    
+   
+   /*while( ch <= 'z') {  
+    printf("%c ",ch);
+    ch += 4;
+    } */
     return 0;
 }
