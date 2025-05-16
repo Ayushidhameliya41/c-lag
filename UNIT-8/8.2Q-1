@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int row,col,i,sum=0,j;
+	float ans;
+	
+	printf("enter the Row:- ");
+	scanf("%d",&row);
+	printf("enter the Column:- ");
+	scanf("%d",&col);
+	
+	int a[row][col];
+	
+	for(i=0;i<row;i++){
+		for(j=0;j<col;j++){
+		printf("a[%d][%d]:-",i,j);
+		scanf("%d",&a[i][j]);
+		sum +=a[i][j];
+	   }		
+	}
+	ans=(float)sum/(i*j);
+	printf("the average is :- %.2f",ans);
+}

@@ -10,7 +10,7 @@ int main()
             printf("  ");
         }
 
-        for(j = 1; j <=  i - 1; j++) {
+        for(j = 1; j <= 2 * i - 1; j++) {
             printf("* ");
         }
 
@@ -20,7 +20,9 @@ int main()
     return 0;
 }
       
-      /*   *
+/* 
+
+        *
       * * *
     * * * * *
   * * * * * * *
